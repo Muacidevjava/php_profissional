@@ -1,0 +1,20 @@
+{
+    "name": "muaci/php_profissional",
+    "description": "php-profissional",
+   
+    "authors": [
+        {
+            "name": "Muaci  Filho",
+            "email": "muaci@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+           "app/helpers/Constantes.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
